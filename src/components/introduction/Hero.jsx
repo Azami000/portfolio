@@ -1,7 +1,9 @@
-import React from "react";
+import { Column } from "./Column";
 
 export const Hero = () => {
-  return <div className="border-s-violet-50h-[552px]">
-    <div></div>
-  </div>;
+  return (
+    <div className="bg-white dark:bg-black">
+      <Column />
+    </div>
+  );
 };

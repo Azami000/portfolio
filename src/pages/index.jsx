@@ -1,10 +1,24 @@
-import { Header, AboutMe, Hero } from "@/components";
+import {
+  Header,
+  AboutMe,
+  Hero,
+  Skills,
+  Experience,
+  Work,
+  Contact,
+  Footer,
+} from "@/components";
 const Home = () => {
   return (
-    <div className="max-w-8xl mx-auto bg-gray-50">
+    <div className="max-w-8xl mx-auto bg-gray-50 dark:bg-black">
       <Header />
-      <AboutMe />
       <Hero />
+      <AboutMe />
+      <Skills />
+      <Experience />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 };
